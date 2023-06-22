@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#4D7394</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Customer portfolios, brands and varieties</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Portfolios</label>
+    <navType>Standard</navType>
+    <tabs>Portfolio__c</tabs>
+    <tabs>Brand_Variety__c</tabs>
+    <tabs>Licensee_Brand__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Access_Hide_Product__c</tabs>
+    <tabs>Seed_Tracking__c</tabs>
+    <tabs>Sales_Localization__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Portfolios_UtilityBar</utilityBar>
+</CustomApplication>

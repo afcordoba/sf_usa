@@ -1,0 +1,22 @@
+<aura:component implements="force:hasRecordId,force:appHostable" controller="growerFileProcessController">
+    <aura:attribute type="string" name="uploadedId"></aura:attribute>
+    <lightning:layout horizontalAlign="center">
+                    <lightning:layoutItem size="8" padding="around-small">
+                        <div style="border: 1px solid rgb(221, 219, 218);border-radius: .35rem;min-height: 300px;">
+                            <lightning:card  title="Upload Growers File">
+                                <lightning:layout horizontalAlign="center">
+                                    <lightning:layoutItem size="auto">
+                                        <div style="margin-top: 10vh;">
+                                            <lightning:fileUpload label="Attach CSV GPOS Report"
+                                                name="fileUploader"
+                                                multiple="false"
+                                                accept=".csv"
+                                                onuploadfinished="{!c.handleUploadFinished}" />
+                                        </div>
+                                    </lightning:layoutItem>
+                                </lightning:layout>
+                            </lightning:card>
+                        </div>
+                    </lightning:layoutItem>
+                </lightning:layout>
+</aura:component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plots</fullName>
+    <fields>Name</fields>
+    <fields>Check_In__c</fields>
+    <fields>Check_Out__c</fields>
+    <label>Plots</label>
+</CompactLayout>

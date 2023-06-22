@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Set_Stage_to_Pending_Approval</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>fmorea@gdmseeds.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>If all product prices falls between $45 - $50 or is only 1 unit per product or &quot;Pilot order&quot; is checked, it will be automatically approved by salesman</description>
+        <entryCriteria>
+            <formula>(Free_Seed_Sale_Validation__c == false &amp;&amp; Sale_Order_Price_Validation_One__c == true &amp;&amp;  Pilot_Order__c == false &amp;&amp; Sale_Order_Price_Validation_Two__c == true &amp;&amp;  Total_Amount__c &gt; 0)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Marketing approval 1</label>
+        <name>One_step_approval</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Set_Stage</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>gsuardiaz@gdmseeds.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Sale_Order_Price_Validation_Two__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Total_Amount__c</field>
+                <operation>greaterThan</operation>
+                <value>10000</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Marketing Approval 2</label>
+        <name>Marketing_Approval_2</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Approval process for Sale Soybean Orders</description>
+    <emailTemplate>In_use_by_GDM/OPP_Approval_Alert</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Opportunity.RecordType</field>
+            <operation>equals</operation>
+            <value>Sale</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Type</field>
+            <operation>contains</operation>
+            <value>Z2 - PARENT SEED,Z3 - TEST SEED,Z4 - WHOLESALE SEED,Z13 - COMMERCIAL SEED,Z14 - STOCK SEED</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Tipo__c</field>
+            <operation>equals</operation>
+            <value>ZO14 – Local Order</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.HasOpportunityLineItem</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Editable</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Set_Stage</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Set_Stage_to_Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Approval - Soybean Orders</label>
+    <processOrder>4</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

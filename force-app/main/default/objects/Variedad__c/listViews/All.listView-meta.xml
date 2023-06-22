@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Relative_Maturity__c</columns>
+    <columns>Maturity_Group__c</columns>
+    <columns>Maturity__c</columns>
+    <columns>Maturity_Index__c</columns>
+    <columns>Active__c</columns>
+    <columns>Product_Placement_Name__c</columns>
+    <columns>Commercial_Code__c</columns>
+    <columns>Check_Variety__c</columns>
+    <columns>Variety_Type__c</columns>
+    <columns>Genetic_Provider__c</columns>
+    <columns>Patent_status__c</columns>
+    <columns>Exclusive_Variety__c</columns>
+    <columns>Exclusive_Licensee__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

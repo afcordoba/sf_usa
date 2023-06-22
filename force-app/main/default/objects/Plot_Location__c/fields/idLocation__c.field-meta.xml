@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>idLocation__c</fullName>
+    <description>Id From GDM Data Analytics Locations</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Id From GDM Data Analytics Locations</inlineHelpText>
+    <label>idLocation</label>
+    <length>40</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

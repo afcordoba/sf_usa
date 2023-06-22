@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GDM_Access_Logs</fullName>
+    <columns>NAME</columns>
+    <columns>SiteUser__c</columns>
+    <columns>Logged_Date__c</columns>
+    <columns>payload__c</columns>
+    <columns>source__c</columns>
+    <columns>ModuleId__c</columns>
+    <columns>Type__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SiteUser__c</field>
+        <operation>notContain</operation>
+        <value>,ignacio bartolome,fran morea,david crislip,derek cornelius,jenny warning,rodrigo iglesias,lance burditt,charlie simmons,gene moore,adam spelhaug,dieter goldenstein</value>
+    </filters>
+    <filters>
+        <field>ModuleId__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>GDM Access Logs</label>
+</ListView>

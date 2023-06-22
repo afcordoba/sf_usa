@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Categoria__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Indicates category of the licensee product</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates category of the licensee product</inlineHelpText>
+    <label>Category</label>
+    <referenceTo>Categoria__c</referenceTo>
+    <relationshipName>Items_del_Contrato</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

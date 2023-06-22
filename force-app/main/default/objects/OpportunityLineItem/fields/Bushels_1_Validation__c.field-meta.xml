@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bushels_1_Validation__c</fullName>
+    <description>Bushels vs Acres (Max:80, Min: 40)</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Sales_Report_Type__c)!=&apos;Production Update 1&apos;,0,IF(Area_Plantada__c=0,0,IF(Area_Plantada__c*80&gt;=Semente_bruta__c,IF(Area_Plantada__c*40&lt;=Semente_bruta__c,0,1),1)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Bushels vs Acres (Max:80, Min: 40)</inlineHelpText>
+    <label>Bushels 1 Validation</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

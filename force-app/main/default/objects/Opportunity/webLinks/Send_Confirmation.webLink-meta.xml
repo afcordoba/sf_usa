@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Confirmation</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send Confirmation</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/apex.js&quot;)}
+ 
+var id = &quot;{!Opportunity.Id}&quot;;
+var result = sforce.apex.execute(&quot;ConfirmationButton&quot;,&quot;GenerateConfirmation&quot;, {oppId : id}); 
+
+alert(&quot;The Confirmation has been generated &quot; + result);
+
+window.location.reload();</url>
+</WebLink>

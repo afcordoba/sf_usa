@@ -1,0 +1,39 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="gposGenerateOpportunitiesController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute type="string" name="summaryText"></aura:attribute>
+    <aura:attribute type="Boolean" name="checkFlag" default="false"></aura:attribute>
+    <aura:attribute type="Boolean" name="hasRecords" default="false"></aura:attribute>
+    <lightning:card title="Generate Opportunities">
+        <aura:renderIf isTrue="{!v.checkFlag}">
+            <center>
+                <h3 style="padding-top: 50px; padding-bottom: 50px;">Are you sure you want to generate the opportunities for this dealer summary? Remember this process is irreversible</h3>
+            </center> 
+            <div style="margin: 1rem;">
+                <lightning:layout horizontalAlign="end"> 
+                    <lightning:layoutItem> 
+                        <lightning:buttonGroup>
+                            <lightning:button label="Back" variant="brand-outline" onclick="{!c.handleBack}"/>
+                            <lightning:button label="Confirm" variant="brand" onclick="{!c.generate}"/>
+                        </lightning:buttonGroup>
+                    </lightning:layoutItem>
+                </lightning:layout>
+            </div>
+            <aura:set attribute="else">
+                <center>
+                    <h3 style="padding-top: 50px; padding-bottom: 50px;">{!v.summaryText}</h3>
+                </center>
+                <aura:if isTrue="{!v.hasRecords}">
+                    <div style="margin: 1rem;">
+                        <lightning:layout horizontalAlign="end"> 
+                            <lightning:layoutItem> 
+                                
+                                <lightning:button label="Generate" onclick="{!c.handleNext}"/>
+                                
+                            </lightning:layoutItem> 
+                        </lightning:layout>
+                    </div>
+                </aura:if>
+            </aura:set>
+        </aura:renderIf>
+    </lightning:card>
+</aura:component>

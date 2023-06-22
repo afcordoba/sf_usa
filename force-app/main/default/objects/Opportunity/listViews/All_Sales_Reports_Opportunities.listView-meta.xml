@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Sales_Reports_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Safra__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>Report_Type__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Marca__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Safra__c</field>
+        <operation>equals</operation>
+        <value>22/2022</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Sales_Report</value>
+    </filters>
+    <label>GDM Sale &amp; Production Reports</label>
+    <sharedTo>
+        <role>Administrative</role>
+        <role>GDM_Manager_s</role>
+        <role>Sales_Representative</role>
+    </sharedTo>
+</ListView>

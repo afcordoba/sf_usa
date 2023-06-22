@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Fecha_Desde__c</columns>
+    <columns>Fecha_Hasta__c</columns>
+    <columns>FKART__c</columns>
+    <columns>NETWR__c</columns>
+    <columns>NUMERO_LOTE__c</columns>
+    <columns>POSNV__c</columns>
+    <columns>VBELV__c</columns>
+    <columns>VBTYP__c</columns>
+    <columns>WAERK__c</columns>
+    <columns>ZZPOSSF__c</columns>
+    <columns>XBLNR__c</columns>
+    <columns>FKIMG__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

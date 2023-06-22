@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_plot_Locations</fullName>
+    <columns>START_HERE_QR__c</columns>
+    <columns>Season__c</columns>
+    <columns>NAME</columns>
+    <columns>Plant_Date__c</columns>
+    <columns>Active__c</columns>
+    <columns>Status__c</columns>
+    <columns>Id_Largo__c</columns>
+    <columns>idLocation__c</columns>
+    <columns>GeoLocation__Latitude__s</columns>
+    <columns>GeoLocation__Longitude__s</columns>
+    <columns>Source__c</columns>
+    <columns>Traits__c</columns>
+    <columns>Maturity_Range__c</columns>
+    <columns>Exclusive__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Season__c</field>
+        <operation>equals</operation>
+        <value>2022</value>
+    </filters>
+    <label>All plot Locations</label>
+</ListView>

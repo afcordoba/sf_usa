@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RP_Total_Amount__c</fullName>
+    <externalId>false</externalId>
+    <label>RP Total Amount</label>
+    <summarizedField>Dealer_Summary_Variety__c.RP_Amount__c</summarizedField>
+    <summaryForeignKey>Dealer_Summary_Variety__c.Dealer_Summary__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

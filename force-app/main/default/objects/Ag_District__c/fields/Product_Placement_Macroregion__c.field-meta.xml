@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Placement_Macroregion__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Product Placement Macroregion</label>
+    <referenceTo>Macroregion__c</referenceTo>
+    <relationshipLabel>Ag Districts (Product Placement Macroregion)</relationshipLabel>
+    <relationshipName>Ag_Districts1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

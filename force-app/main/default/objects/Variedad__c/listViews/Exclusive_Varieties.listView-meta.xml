@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exclusive_Varieties</fullName>
+    <columns>NAME</columns>
+    <columns>Nombre_de_Registro__c</columns>
+    <columns>Exclusive_Variety__c</columns>
+    <columns>Exclusive_Licensee__c</columns>
+    <columns>Season__c</columns>
+    <columns>Tecnologia__c</columns>
+    <columns>Catalog__c</columns>
+    <columns>Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Exclusive_Licensee__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Exclusive Varieties</label>
+</ListView>

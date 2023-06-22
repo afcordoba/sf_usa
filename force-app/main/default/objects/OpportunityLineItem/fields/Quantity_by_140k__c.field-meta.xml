@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_by_140k__c</fullName>
+    <description>,Quantity* NULLVALUE(Seed_per_pound__c, 0)/140000*VALUE(PricebookEntry.Product2.CANTIDAD_SUB_UNIDAD__c)</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(Motivo_de_Rechazo__c!=&apos;Z9&apos;,Motivo_de_Rechazo__c!=&apos;Z5&apos;,Motivo_de_Rechazo__c!=&apos;Z4&apos;),
+
+  IF(TEXT(PricebookEntry.Product2.UNIDADE__c)=&apos;BAGS BY LBS&apos;,
+    (Quantity-Returned_Quantity__c)/50*VALUE(PricebookEntry.Product2.CANTIDAD_SUB_UNIDAD__c),
+    (Quantity-Returned_Quantity__c)/140*VALUE(PricebookEntry.Product2.CANTIDAD_SUB_UNIDAD__c)
+    ),
+  0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>IF(AND(Motivo_de_Rechazo__c!=&apos;Z3&apos;,Motivo_de_Rechazo__c!=&apos;Z5&apos;),
+
+  IF(TEXT(PricebookEntry.Product2.UNIDADE__c)=&apos;BAGS BY LBS&apos;,
+    (Quantity-Returned_Quantity__c)/50*VALUE(PricebookEntry.Product2.CANTIDAD_SUB_UNIDAD__c),
+    (Quantity-Returned_Quantity__c)/140*VALUE(PricebookEntry.Product2.CANTIDAD_SUB_UNIDAD__c)
+    ),
+  0)</inlineHelpText>
+    <label>Quantity by 140k</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Royalty_Sale__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Opportunity.RecordType.Name=&apos;Sale&apos;, TEXT(PricebookEntry.Product2.Family)=&apos;Royalty&apos;),Quantity_by_140k__c,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Royalty Sale by 140k</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

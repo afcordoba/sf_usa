@@ -1,0 +1,28 @@
+<!--  Global Alert -->
+<aura:component implements="flexipage:availableForAllPageTypes" >
+    <ltng:require styles="/resource/SLDS231/assets/styles/salesforce-lightning-design-system.css" />
+    <aura:attribute name="title" type="String" default="Alert!" />
+    <aura:attribute name="content" type="String" default="Content" />
+    <div class="slds">
+    <article class="slds-card">
+    <div aura:id="header" class="slds-card__header slds-grid">
+    	<header class="slds-media slds-media_center slds-has-flexi-truncate">      
+    	<div class="slds-media__body">
+        	<h2>
+            	<a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="[object Object]">
+            	<span class="slds-text-heading_small">{!v.title}</span>
+          		</a>
+        	</h2>
+      	</div>
+    	</header>
+    	<div class="slds-no-flex">
+    		<button class="slds-button slds-button_neutral">New</button>
+    	</div>
+  	</div>
+  	<div aura:id="alert-content" class="slds-card__body slds-card__body_inner">
+    	{!v.content}
+    </div>
+  	<footer class="slds-card__footer"></footer>
+	</article>
+    </div>	
+</aura:component>

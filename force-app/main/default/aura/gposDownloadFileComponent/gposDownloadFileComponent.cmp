@@ -1,0 +1,26 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="gposDownloadFileComponentController">
+
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:attribute name="fileList" type="gposDownloadFileComponentController.FileWrapper[]"/>
+
+    <aura:iteration items="{!v.fileList}" var="dd">
+                                <lightning:layout horizontalAlign="center">
+                                    <lightning:layoutItem size="10" padding="around-small">
+                                        <div style="background-color: rgba(221, 229, 252, 1); border-radius: .35rem; padding: 25px; margin-top: 10px; border: 1px solid rgb(221, 219, 218);border-radius: .35rem;">
+                                            <lightning:layout multipleRows="true" horizontalAlign="end">
+                                                <lightning:layoutItem size="3" padding="around-small">
+                                                    <lightning:icon iconName="doctype:excel" size="large" alternativeText="CSV file" title="CSV" /> 
+                                                </lightning:layoutItem>
+                                                <lightning:layoutItem size="9" padding="around-small">
+                                                    <p style="text-align: left; font-weight:bold">{!dd.FileName}</p>
+                                                    <a style="text-align: left;" href="{!dd.Link}" target="_blank">Download</a>
+                                                    <p style="text-align: left; font-weight:bold">Exported date: {!dd.CreatedDate}</p>
+                                                </lightning:layoutItem>
+                                            </lightning:layout>
+                                        </div>       
+                                    </lightning:layoutItem>
+                                </lightning:layout>
+                            </aura:iteration>
+</aura:component>

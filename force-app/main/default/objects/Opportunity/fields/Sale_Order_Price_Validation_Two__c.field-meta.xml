@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale_Order_Price_Validation_Two__c</fullName>
+    <description>Checked if any product price &lt; $45</description>
+    <externalId>false</externalId>
+    <formula>(Min_Price__c &lt; 45 || Max_Price__c &lt; 45)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if any product price &lt; $45</inlineHelpText>
+    <label>Sale Order Price Validation Two</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

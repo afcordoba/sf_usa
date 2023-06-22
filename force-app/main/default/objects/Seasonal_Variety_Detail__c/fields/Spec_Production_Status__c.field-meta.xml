@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spec_Production_Status__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked If the variety will have US production for the following season&apos;s supply</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checked If the variety will have US production for the following season&apos;s supply</inlineHelpText>
+    <label>Spec Production Status</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

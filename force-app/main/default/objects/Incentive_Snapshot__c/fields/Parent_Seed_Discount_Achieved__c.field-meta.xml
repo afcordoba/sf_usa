@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Seed_Discount_Achieved__c</fullName>
+    <externalId>false</externalId>
+    <label>Parent Seed Discount Achieved</label>
+    <summarizedField>Incentive_Snapshot_Parent_Seed_Detail__c.Total_Discount__c</summarizedField>
+    <summaryForeignKey>Incentive_Snapshot_Parent_Seed_Detail__c.Incentive_Snapshot__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

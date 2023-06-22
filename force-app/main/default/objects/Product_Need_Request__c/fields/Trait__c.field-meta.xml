@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trait__c</fullName>
+    <externalId>false</externalId>
+    <label>Trait</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Conventional</fullName>
+                <default>false</default>
+                <label>Conventional</label>
+            </value>
+            <value>
+                <fullName>Enlist</fullName>
+                <default>false</default>
+                <label>Enlist</label>
+            </value>
+            <value>
+                <fullName>XtendFlex</fullName>
+                <default>false</default>
+                <label>XtendFlex</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

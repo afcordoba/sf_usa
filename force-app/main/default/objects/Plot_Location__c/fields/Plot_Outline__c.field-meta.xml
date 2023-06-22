@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plot_Outline__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This will identify the points that are needed to build the polygon outline shape of the Explore Plot.
+Enter set of GPS Coordinates per line.
+Example:
+34.123413, -90.12341234
+34.123414, -90.12341235</inlineHelpText>
+    <label>Plot Outline</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

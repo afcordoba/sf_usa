@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_of_the_event__c</fullName>
+    <externalId>false</externalId>
+    <label>How did you hear of the event</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Burrus Seed representative</fullName>
+                <default>false</default>
+                <label>Burrus Seed representative</label>
+            </value>
+            <value>
+                <fullName>Social media post</fullName>
+                <default>false</default>
+                <label>Social media post</label>
+            </value>
+            <value>
+                <fullName>Fellow soybean grower</fullName>
+                <default>false</default>
+                <label>Fellow soybean grower</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

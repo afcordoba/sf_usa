@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Like_Plot_Cell__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>This will be &quot;Checked&quot; if the user &quot;Likes&quot; a Plot Note in GDM Explore.</inlineHelpText>
+    <label>&quot;Like&quot; Plot Cell</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

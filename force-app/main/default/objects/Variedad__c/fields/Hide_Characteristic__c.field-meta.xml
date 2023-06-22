@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hide_Characteristic__c</fullName>
+    <description>Choose which characteristics will be hidden from the Product Data Page in GDM Access</description>
+    <externalId>false</externalId>
+    <label>Hide Characteristic</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Flower Color</fullName>
+                <default>false</default>
+                <label>Flower Color</label>
+            </value>
+            <value>
+                <fullName>Pubescence Color</fullName>
+                <default>false</default>
+                <label>Pubescence Color</label>
+            </value>
+            <value>
+                <fullName>Pod Color</fullName>
+                <default>false</default>
+                <label>Pod Color</label>
+            </value>
+            <value>
+                <fullName>Hilum Color</fullName>
+                <default>false</default>
+                <label>Hilum Color</label>
+            </value>
+            <value>
+                <fullName>Relative Maturity</fullName>
+                <default>false</default>
+                <label>Relative Maturity</label>
+            </value>
+            <value>
+                <fullName>Growth Habit</fullName>
+                <default>false</default>
+                <label>Growth Habit</label>
+            </value>
+            <value>
+                <fullName>Plant Height</fullName>
+                <default>false</default>
+                <label>Plant Height</label>
+            </value>
+            <value>
+                <fullName>Plant Type</fullName>
+                <default>false</default>
+                <label>Plant Type</label>
+            </value>
+            <value>
+                <fullName>Canopy</fullName>
+                <default>false</default>
+                <label>Canopy</label>
+            </value>
+            <value>
+                <fullName>Standability</fullName>
+                <default>false</default>
+                <label>Standability</label>
+            </value>
+            <value>
+                <fullName>Salt Tolerance</fullName>
+                <default>false</default>
+                <label>Salt Tolerance</label>
+            </value>
+            <value>
+                <fullName>Seed Size</fullName>
+                <default>false</default>
+                <label>Seed Size</label>
+            </value>
+            <value>
+                <fullName>Emergence</fullName>
+                <default>false</default>
+                <label>Emergence</label>
+            </value>
+            <value>
+                <fullName>Green Stem</fullName>
+                <default>false</default>
+                <label>Green Stem</label>
+            </value>
+            <value>
+                <fullName>Shattering</fullName>
+                <default>false</default>
+                <label>Shattering</label>
+            </value>
+            <value>
+                <fullName>SCN</fullName>
+                <default>false</default>
+                <label>SCN</label>
+            </value>
+            <value>
+                <fullName>SCN Race 14</fullName>
+                <default>false</default>
+                <label>SCN Race 14</label>
+            </value>
+            <value>
+                <fullName>Sudden Death Syndrome</fullName>
+                <default>false</default>
+                <label>Sudden Death Syndrome</label>
+            </value>
+            <value>
+                <fullName>Stem Canker</fullName>
+                <default>false</default>
+                <label>Stem Canker</label>
+            </value>
+            <value>
+                <fullName>RPS Gene</fullName>
+                <default>false</default>
+                <label>RPS Gene</label>
+            </value>
+            <value>
+                <fullName>Root Knot Nematode</fullName>
+                <default>false</default>
+                <label>Root Knot Nematode</label>
+            </value>
+            <value>
+                <fullName>Frogeye</fullName>
+                <default>false</default>
+                <label>Frogeye</label>
+            </value>
+            <value>
+                <fullName>PRR Tolerance</fullName>
+                <default>false</default>
+                <label>PRR Tolerance</label>
+            </value>
+            <value>
+                <fullName>Iron Deficiency Chlorosis</fullName>
+                <default>false</default>
+                <label>Iron Deficiency Chlorosis</label>
+            </value>
+            <value>
+                <fullName>Cercospora</fullName>
+                <default>false</default>
+                <label>Cercospora</label>
+            </value>
+            <value>
+                <fullName>Metribuzin Tolerance</fullName>
+                <default>false</default>
+                <label>Metribuzin Tolerance</label>
+            </value>
+            <value>
+                <fullName>White Mold</fullName>
+                <default>false</default>
+                <label>White Mold</label>
+            </value>
+            <value>
+                <fullName>Brown Stem Rot</fullName>
+                <default>false</default>
+                <label>Brown Stem Rot</label>
+            </value>
+            <value>
+                <fullName>STS</fullName>
+                <default>false</default>
+                <label>STS</label>
+            </value>
+            <value>
+                <fullName>Protein Concentration %</fullName>
+                <default>false</default>
+                <label>Protein Concentration %</label>
+            </value>
+            <value>
+                <fullName>Oil Concentration %</fullName>
+                <default>false</default>
+                <label>Oil Concentration %</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

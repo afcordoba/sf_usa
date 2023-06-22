@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bushels_All_Validation__c</fullName>
+    <description>New Bushels vs Previous Reported Bushels (Max:1.2, Min: 0.8)</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Sales_Report_Type__c)=&apos;Production Update 1&apos;,0,IF(Prev_Bushels__c=0,0,IF(Prev_Bushels__c*1.2&gt;=Semente_bruta__c,IF(Prev_Bushels__c*0.8&lt;=Semente_bruta__c,0,1),1)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>New Bushels vs Previous Reported Bushels (Max:1.2, Min: 0.8)</inlineHelpText>
+    <label>Bushels All Validation</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

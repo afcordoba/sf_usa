@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incentive_Contract_Parent_Seed_Goal__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Incentive Contract Parent Seed Goal</label>
+    <referenceTo>Incentive_Contract_Parent_Seed_Goal__c</referenceTo>
+    <relationshipLabel>Incentive Snapshot Parent Seed Details</relationshipLabel>
+    <relationshipName>Incentive_Snapshot_Parent_Seed_Details</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

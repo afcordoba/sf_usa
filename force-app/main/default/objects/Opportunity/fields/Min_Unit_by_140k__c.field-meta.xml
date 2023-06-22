@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Min_Unit_by_140k__c</fullName>
+    <description>Minimum unit by 140k value of products related to this opportunity.</description>
+    <externalId>false</externalId>
+    <label>Min Unit by 140k</label>
+    <summarizedField>OpportunityLineItem.Quantity_by_140k_value__c</summarizedField>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

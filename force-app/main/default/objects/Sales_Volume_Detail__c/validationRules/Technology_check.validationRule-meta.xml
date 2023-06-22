@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_check</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name=&apos;By Technology&apos;,BLANKVALUE(T_LLG27__c,0)+
+			BLANKVALUE(T_RR2Y__c,0)+
+			BLANKVALUE(T_Xtend__c,0)+
+			BLANKVALUE(T_X_Flex__c,0)+
+			BLANKVALUE(T_Conventional__c,0)+
+			BLANKVALUE(T_GT__c,0)+
+			BLANKVALUE(T_Enlist__c,0)+
+			BLANKVALUE(T_LL__c,0) &lt;&gt; 1)</errorConditionFormula>
+    <errorMessage>All Technologies must add up to 100%</errorMessage>
+</ValidationRule>

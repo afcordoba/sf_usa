@@ -1,0 +1,42 @@
+<aura:component implements="lightning:isUrlAddressable" controller="salesRegionalizationComponentController">
+    
+    <aura:attribute name="id" type="String" default=""/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="locationList" type="Location__c[]"/>
+    <aura:attribute name="slWrapperList" type="salesRegionalizationComponentController.SalesLocalizationWrapper[]"/>
+    <aura:attribute name="isSaveEnabled" type="Boolean" default="true"/>
+    
+    <!-- Add an "init" handler to handle the first "v.pageReference" value -->
+    <aura:handler name="init" value="{!this}" action="{!c.onPageReferenceChange}"/>
+    
+    <lightning:card title="Sales Regionalization">
+        <aura:set attribute="actions">
+            <lightning:button onclick="{!c.onSave}" label="Save" disabled="{!!v.isSaveEnabled}"/>
+        </aura:set>
+
+        <div class="table-container">
+            <table class="c-table">
+                <thead>
+                    <th>Variety</th>
+                    <aura:iteration items="{!v.locationList}" var="locationItem">
+                        <th>{!locationItem.Location_Region__c} %</th>
+                    </aura:iteration>
+                    <th>Total %</th>
+                </thead>
+                <tbody>
+                    <aura:iteration items="{!v.slWrapperList}" var="slItem">
+                        <td><div>
+                            {!slItem.variety.Name}
+                        </div></td>
+                        <aura:iteration items="{!slItem.sLocalizationList}" var="lItem">
+                            <td>        
+                                <lightning:input onchange="{!c.handleInputChange}" type="number" name="input6" value="{!lItem.Percentage__c}" formatter="percent-fixed"/>
+                            </td>
+                        </aura:iteration>
+                        <th> {!slItem.tPercentage}</th>
+                    </aura:iteration>
+                </tbody>
+            </table>
+        </div>
+    </lightning:card>
+</aura:component>

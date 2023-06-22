@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Category__c</columns>
+    <columns>Type__c</columns>
+    <columns>payload__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>QR__c</columns>
+    <columns>Bean_Blog_Post__c</columns>
+    <columns>SiteUser__c</columns>
+    <columns>Account__c</columns>
+    <columns>SiteUserSavedSearch_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>contains</operation>
+        <value>seed</value>
+    </filters>
+    <label>All</label>
+</ListView>

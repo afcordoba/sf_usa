@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Packaging__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(PricebookEntry.Product2.UNIDADE__c,&quot;BAG 140K&quot;,&quot;140K&quot;,&quot;BAG 40(140K)&quot;,&quot;40@140K&quot;,&quot;LB&quot;,&quot;LB&quot;,&quot;BAGS BY LBS&quot;,&quot;BAGS BY LBS&quot;,&quot;N/A&quot;)</formula>
+    <label>Packaging</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

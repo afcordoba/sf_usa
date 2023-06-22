@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_GDM_Explore_Scheduled_Visits_SCB</fullName>
+    <columns>NAME</columns>
+    <columns>Plot_Location__c</columns>
+    <columns>SiteUser__c</columns>
+    <columns>Book_Date__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Account__c</columns>
+    <columns>Plot_Location_Region__c</columns>
+    <columns>SiteUser_Account_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Plot_Season__c</field>
+        <operation>equals</operation>
+        <value>2020</value>
+    </filters>
+    <filters>
+        <field>SiteUser_Email__c</field>
+        <operation>notContain</operation>
+        <value>donmario,gdmseeds</value>
+    </filters>
+    <filters>
+        <field>Plot_Location_Region__c</field>
+        <operation>equals</operation>
+        <value>W,EC,MDS</value>
+    </filters>
+    <label>Scheduled Visits MDS, EC, W not GDM</label>
+</ListView>

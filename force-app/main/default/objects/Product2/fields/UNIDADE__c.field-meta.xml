@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UNIDADE__c</fullName>
+    <externalId>false</externalId>
+    <label>Unit Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BAG 140K</fullName>
+                <default>false</default>
+                <label>BAG 140K</label>
+            </value>
+            <value>
+                <fullName>BAG 40(140K)</fullName>
+                <default>false</default>
+                <label>BAG 40(140K)</label>
+            </value>
+            <value>
+                <fullName>LB</fullName>
+                <default>false</default>
+                <label>LB</label>
+            </value>
+            <value>
+                <fullName>BAGS BY LBS</fullName>
+                <default>false</default>
+                <label>BAGS BY LBS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

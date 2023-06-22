@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+
+    <lightning:card title="GPOS File Process"> 
+        <lightning:tabset>
+            <lightning:tab label="Download File" id="downloadId"><c:gposDownloadFileComponent recordId="{!v.recordId}"/></lightning:tab>
+            <lightning:tab label="Upload File" id="uploadId"><c:gposUploadFileComponent recordId="{!v.recordId}"/></lightning:tab>
+        </lightning:tabset>
+    </lightning:card>
+</aura:component>

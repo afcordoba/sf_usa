@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supply_1_Validation__c</fullName>
+    <description>Supply vs Bushels (Max:1.2, Min: 1)</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Sales_Report_Type__c)!=&apos;Production Update 1&apos;,0,IF(Semente_bruta__c=0,0,IF(Semente_bruta__c*1.2&gt;=Units_Estimate_140K__c,IF(Semente_bruta__c*1&lt;=Units_Estimate_140K__c,0,1),1)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Supply vs Bushels (Max:1.2, Min: 1)</inlineHelpText>
+    <label>Supply 1 Validation</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

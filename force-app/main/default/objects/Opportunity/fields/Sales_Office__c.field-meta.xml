@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Office__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Office</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Company__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US00 - Without office</fullName>
+                <default>true</default>
+                <label>US00 - Without office</label>
+            </value>
+            <value>
+                <fullName>US01 - Exterior</fullName>
+                <default>false</default>
+                <label>US01 - Exterior</label>
+            </value>
+            <value>
+                <fullName>US02 - North Corn Belt</fullName>
+                <default>false</default>
+                <label>US02 - North Corn Belt</label>
+            </value>
+            <value>
+                <fullName>US03 - Mindaka</fullName>
+                <default>false</default>
+                <label>US03 - Mindaka</label>
+            </value>
+            <value>
+                <fullName>US04 - West</fullName>
+                <default>false</default>
+                <label>US04 - West</label>
+            </value>
+            <value>
+                <fullName>US05 - Eastern Corn Belt</fullName>
+                <default>false</default>
+                <label>US05 - Eastern Corn Belt</label>
+            </value>
+            <value>
+                <fullName>US06 - Central Cornbelt</fullName>
+                <default>false</default>
+                <label>US06 - Central Cornbelt</label>
+            </value>
+            <value>
+                <fullName>US07 - Midsouth</fullName>
+                <default>false</default>
+                <label>US07 - Midsouth</label>
+            </value>
+            <value>
+                <fullName>US08 - East Coast</fullName>
+                <default>false</default>
+                <label>US08 - East Coast</label>
+            </value>
+            <value>
+                <fullName>US09 - Grand Lakes</fullName>
+                <default>false</default>
+                <label>US09 - Grand Lakes</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US00 - Without office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US01 - Exterior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US02 - North Corn Belt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US03 - Mindaka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US04 - West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US05 - Eastern Corn Belt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US06 - Central Cornbelt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US07 - Midsouth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US08 - East Coast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>US09 - Grand Lakes</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

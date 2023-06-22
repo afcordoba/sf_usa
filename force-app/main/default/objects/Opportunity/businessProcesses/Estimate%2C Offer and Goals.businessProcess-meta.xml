@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimate%2C Offer and Goals</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Budget</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

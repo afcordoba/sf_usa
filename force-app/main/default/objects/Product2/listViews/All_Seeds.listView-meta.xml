@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Seeds</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>UNIDADE__c</columns>
+    <columns>Variedade__c</columns>
+    <columns>Categ__c</columns>
+    <columns>CANTIDAD_SUB_UNIDAD__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>Seed</value>
+    </filters>
+    <label>All Seeds</label>
+</ListView>

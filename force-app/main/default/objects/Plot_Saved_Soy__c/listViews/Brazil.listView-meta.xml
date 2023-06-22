@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brazil</fullName>
+    <columns>NAME</columns>
+    <columns>SiteUser__c</columns>
+    <columns>Type__c</columns>
+    <columns>Plot_Location__c</columns>
+    <columns>Variety__c</columns>
+    <columns>Active__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Brazil</value>
+    </filters>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Brazil</label>
+</ListView>

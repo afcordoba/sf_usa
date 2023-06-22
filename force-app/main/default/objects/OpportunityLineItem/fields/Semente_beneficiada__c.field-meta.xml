@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Semente_beneficiada__c</fullName>
+    <description>Unit: 140 k Seeds Bag Production/Conditioning Reports</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unit: 140 k Seeds Bag Production/Conditioning Reports</inlineHelpText>
+    <label>Conditioned 140K Units (Supply)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

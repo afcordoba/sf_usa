@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bean</fullName>
+    <fields>Name</fields>
+    <fields>Plot_Location__c</fields>
+    <fields>Status__c</fields>
+    <fields>Topic__c</fields>
+    <label>Bean</label>
+</CompactLayout>

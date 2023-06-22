@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GDM_Final_Sale_Reports_2021</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Safra__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>Report_Type__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Marca__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Marca__c</field>
+        <operation>equals</operation>
+        <value>GDM</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Final Sales Report</value>
+    </filters>
+    <filters>
+        <field>Safra__c</field>
+        <operation>equals</operation>
+        <value>21/2021</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notEqual</operation>
+        <value>ACME</value>
+    </filters>
+    <label>GDM Final Sale Reports 2021</label>
+</ListView>

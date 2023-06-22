@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_GDM</fullName>
+    <columns>NAME</columns>
+    <columns>Plot_Location__c</columns>
+    <columns>SiteUser__c</columns>
+    <columns>Book_Date__c</columns>
+    <columns>Time_Range__c</columns>
+    <columns>Check_In__c</columns>
+    <columns>Check_Out__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>SiteUserAccount__c</columns>
+    <columns>Active__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SiteUser__c</field>
+        <operation>notEqual</operation>
+        <value>charlie simmons,david crislip,gil garcia,gene moore,ignacio bartolome,jeremias,thiago schwonka,rodrigo iglesias</value>
+    </filters>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Not GDM - Actives</label>
+</ListView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plot_Locations_2021_comer</fullName>
+    <columns>Season__c</columns>
+    <columns>NAME</columns>
+    <columns>Source__c</columns>
+    <columns>Country__c</columns>
+    <columns>Active__c</columns>
+    <columns>Status__c</columns>
+    <columns>Traits__c</columns>
+    <columns>Test_Name__c</columns>
+    <columns>GeoLocation__Latitude__s</columns>
+    <columns>GeoLocation__Longitude__s</columns>
+    <columns>Parking_Lot_Location__Latitude__s</columns>
+    <columns>Parking_Lot_Location__Longitude__s</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Season__c</field>
+        <operation>equals</operation>
+        <value>2021</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>United States</value>
+    </filters>
+    <filters>
+        <field>Location__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Public</value>
+    </filters>
+    <label>Plot Locations 2021 Commercial</label>
+</ListView>

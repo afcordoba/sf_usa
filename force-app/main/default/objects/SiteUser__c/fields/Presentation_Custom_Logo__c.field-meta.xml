@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presentation_Custom_Logo__c</fullName>
+    <description>This is the Logo that the customer uploaded to use for customizing their exported presentation.</description>
+    <externalId>false</externalId>
+    <label>Presentation Custom Logo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notification_Blog_Post_Regions__c</fullName>
+    <externalId>false</externalId>
+    <label>Notification - Blog Post Regions</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>East Coast</fullName>
+                <default>false</default>
+                <label>East Coast</label>
+            </value>
+            <value>
+                <fullName>Mid South</fullName>
+                <default>false</default>
+                <label>Mid South</label>
+            </value>
+            <value>
+                <fullName>Southern Cornbelt</fullName>
+                <default>false</default>
+                <label>Southern Cornbelt</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>Northern Cornbelt</fullName>
+                <default>false</default>
+                <label>Northern Cornbelt</label>
+            </value>
+            <value>
+                <fullName>Mindakca</fullName>
+                <default>false</default>
+                <label>Mindakca</label>
+            </value>
+            <value>
+                <fullName>Central Cornbelt</fullName>
+                <default>false</default>
+                <label>Central Cornbelt</label>
+            </value>
+            <value>
+                <fullName>Eastern Cornbelt</fullName>
+                <default>false</default>
+                <label>Eastern Cornbelt</label>
+            </value>
+            <value>
+                <fullName>Great Lakes</fullName>
+                <default>false</default>
+                <label>Great Lakes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

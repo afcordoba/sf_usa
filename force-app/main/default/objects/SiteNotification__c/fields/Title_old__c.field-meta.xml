@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title_old__c</fullName>
+    <externalId>false</externalId>
+    <label>Title_old</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A new Bean Blog Post has been published</fullName>
+                <default>false</default>
+                <label>A new Bean Blog Post has been published</label>
+            </value>
+            <value>
+                <fullName>A new visit has been scheduled</fullName>
+                <default>false</default>
+                <label>A new visit has been scheduled</label>
+            </value>
+            <value>
+                <fullName>You have an scheduled visit tomorrow</fullName>
+                <default>false</default>
+                <label>You have an scheduled visit tomorrow</label>
+            </value>
+            <value>
+                <fullName>Another user is sharing their notes with you</fullName>
+                <default>false</default>
+                <label>Another user is sharing their notes with you</label>
+            </value>
+            <value>
+                <fullName>Opening day for reporting</fullName>
+                <default>false</default>
+                <label>Opening day for reporting</label>
+            </value>
+            <value>
+                <fullName>The report is due next week</fullName>
+                <default>false</default>
+                <label>The report is due next week</label>
+            </value>
+            <value>
+                <fullName>News announcementve</fullName>
+                <default>false</default>
+                <label>News announcementve</label>
+            </value>
+            <value>
+                <fullName>New Product Data has been released</fullName>
+                <default>false</default>
+                <label>New Product Data has been released</label>
+            </value>
+            <value>
+                <fullName>Product Data changes has been released</fullName>
+                <default>false</default>
+                <label>Product Data changes has been released</label>
+            </value>
+            <value>
+                <fullName>New Product Recommendation has been posted</fullName>
+                <default>false</default>
+                <label>New Product Recommendation has been posted</label>
+            </value>
+            <value>
+                <fullName>Business news</fullName>
+                <default>false</default>
+                <label>Business news</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

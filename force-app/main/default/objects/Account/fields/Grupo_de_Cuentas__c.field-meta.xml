@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grupo_de_Cuentas__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>US01 - Domestic Customers</fullName>
+                <default>false</default>
+                <label>US01 - Domestic Customers</label>
+            </value>
+            <value>
+                <fullName>US02 - Foreing Customers</fullName>
+                <default>false</default>
+                <label>US02 - Foreign Customers</label>
+            </value>
+            <value>
+                <fullName>US03 - Ship To</fullName>
+                <default>false</default>
+                <label>US03 - Ship To</label>
+            </value>
+            <value>
+                <fullName>US04 - Branches</fullName>
+                <default>false</default>
+                <label>US04 - Branches</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reservation_Quantity__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Whenever an Opportunity Reservation is made, and an Inventory Type Opportunity Product match is found by Product, Season, Plant, and Warehouse, this field will increase on the Inventory record by the Sale Qty</description>
+    <externalId>false</externalId>
+    <label>Reservation Qty (by 140k)</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

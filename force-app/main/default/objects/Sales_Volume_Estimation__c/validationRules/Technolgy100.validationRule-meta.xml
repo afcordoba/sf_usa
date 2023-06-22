@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technolgy100</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND((BLANKVALUE(Conventional__c,0)+
+	BLANKVALUE(Enlist__c,0)+
+	BLANKVALUE(GT__c,0)+
+	BLANKVALUE(LL__c,0)+
+	BLANKVALUE(LLG27__c,0)+
+	BLANKVALUE(RR2Y__c,0)+
+	BLANKVALUE(Xtend__c,0)+
+	BLANKVALUE(Xtend_Flex__c,0)) &lt;&gt; 1,
+	(BLANKVALUE(Conventional__c,0)+
+	BLANKVALUE(Enlist__c,0)+
+	BLANKVALUE(GT__c,0)+
+	BLANKVALUE(LL__c,0)+
+	BLANKVALUE(LLG27__c,0)+
+	BLANKVALUE(RR2Y__c,0)+
+	BLANKVALUE(Xtend__c,0)+
+	BLANKVALUE(Xtend_Flex__c,0)) &lt;&gt; 0)</errorConditionFormula>
+    <errorMessage>All Technologies percentages must add to 100%</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maturity_Index__c</fullName>
+    <externalId>false</externalId>
+    <formula>FIND(&quot;&apos;&quot;+Relative_Maturity__c+&quot;&apos;&quot;,&quot;&apos;000.0&apos;, &apos;000.1&apos;,&apos;000.2&apos;,&apos;000.3&apos;,&apos;000.4&apos;,&apos;000.5&apos;,&apos;000.6&apos;,&apos;000.7&apos;,&apos;000.8&apos;,&apos;000.9&apos;,&apos;00.0&apos;, &apos;00.1&apos;,&apos;00.2&apos;,&apos;00.3&apos;,&apos;00.4&apos;,&apos;00.5&apos;,&apos;00.6&apos;,&apos;00.7&apos;,&apos;00.8&apos;,&apos;00.9&apos;, &apos;0.0&apos;, &apos;0.1&apos;,&apos;0.2&apos;,&apos;0.3&apos;,&apos;0.4&apos;,&apos;0.5&apos;,&apos;0.6&apos;,&apos;0.7&apos;,&apos;0.8&apos;,&apos;0.9&apos;,&apos;1.0&apos;,&apos;1.1&apos;,&apos;1.2&apos;,&apos;1.3&apos;,&apos;1.4&apos;,&apos;1.5&apos;,&apos;1.6&apos;,&apos;1.7&apos;,&apos;1.8&apos;,&apos;1.9&apos;,&apos;2.0&apos;,&apos;2.1&apos;,&apos;2.2&apos;,&apos;2.3&apos;,&apos;2.4&apos;,&apos;2.5&apos;,&apos;2.6&apos;,&apos;2.7&apos;,&apos;2.8&apos;,&apos;2.9&apos;,&apos;3.0&apos;,&apos;3.1&apos;,&apos;3.2&apos;,&apos;3.3&apos;,&apos;3.4&apos;,&apos;3.5&apos;,&apos;3.6&apos;,&apos;3.7&apos;,&apos;3.8&apos;,&apos;3.9&apos;,&apos;4.0&apos;,&apos;4.1&apos;,&apos;4.2&apos;,&apos;4.3&apos;,&apos;4.4&apos;,&apos;4.5&apos;,&apos;4.6&apos;,&apos;4.7&apos;,&apos;4.8&apos;,&apos;4.9&apos;,&apos;5.0&apos;,&apos;5.1&apos;,&apos;5.2&apos;,&apos;5.3&apos;,&apos;5.4&apos;,&apos;5.5&apos;,&apos;5.6&apos;,&apos;5.7&apos;,&apos;5.8&apos;,&apos;5.9&apos;,&apos;6.0&apos;,&apos;6.1&apos;,&apos;6.2&apos;,&apos;6.3&apos;,&apos;6.4&apos;,&apos;6.5&apos;,&apos;6.6&apos;,&apos;6.7&apos;,&apos;6.8&apos;,&apos;6.9&apos;,&apos;7.0&apos;,&apos;7.1&apos;,&apos;7.2&apos;,&apos;7.3&apos;,&apos;7.4&apos;,&apos;7.5&apos;,&apos;7.6&apos;,&apos;7.7&apos;,&apos;7.8&apos;,&apos;7.9&apos;,&apos;8.0&apos;,&apos;8.1&apos;,&apos;8.2&apos;,&apos;8.3&apos;,&apos;8.4&apos;,&apos;8.5&apos;,&apos;8.6&apos;&quot;,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Maturity Index</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_DONMARIO_Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Variety_Brand__c</columns>
+    <columns>Variedade__c</columns>
+    <columns>Codigo_Material_SAP__c</columns>
+    <columns>CANTIDAD_SUB_UNIDAD__c</columns>
+    <columns>UNIDADE__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Variety_Brand__c</field>
+        <operation>equals</operation>
+        <value>DONMARIO</value>
+    </filters>
+    <label>All DONMARIO Products</label>
+</ListView>

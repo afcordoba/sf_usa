@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ag_District__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Ag District is comprised counties
+
+Ag Districts are confined by state lines because they are comprised of counties
+
+One Ag District can have many counties
+One State can have many Ag Districts
+One Macro Region can have many Ag Districts</description>
+    <externalId>false</externalId>
+    <label>Ag District</label>
+    <referenceTo>Ag_District__c</referenceTo>
+    <relationshipLabel>Counties</relationshipLabel>
+    <relationshipName>Counties</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

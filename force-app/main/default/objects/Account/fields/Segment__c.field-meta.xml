@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment__c</fullName>
+    <description>Discount Segment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies which marketing segment the account is in. Any account which contributes to the market should have a segment.</inlineHelpText>
+    <label>Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Segment A+</fullName>
+                <default>false</default>
+                <label>Segment A+</label>
+            </value>
+            <value>
+                <fullName>Segment A</fullName>
+                <default>false</default>
+                <label>Segment A</label>
+            </value>
+            <value>
+                <fullName>Segment B</fullName>
+                <default>false</default>
+                <label>Segment B</label>
+            </value>
+            <value>
+                <fullName>Segment C</fullName>
+                <default>false</default>
+                <label>Segment C</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

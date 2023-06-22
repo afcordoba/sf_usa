@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_jere</fullName>
+    <columns>NAME</columns>
+    <columns>Plot_Location__c</columns>
+    <columns>SiteUser__c</columns>
+    <columns>Book_Date__c</columns>
+    <columns>Time_Range__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Active__c</columns>
+    <columns>Account__c</columns>
+    <columns>SiteUser_Email__c</columns>
+    <columns>Plot_Season__c</columns>
+    <columns>Plot_Location_Region__c</columns>
+    <columns>Plot_Location_Name__c</columns>
+    <columns>Cloned__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SiteUser__c</field>
+        <operation>equals</operation>
+        <value>Charlie Simmons</value>
+    </filters>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale_Price_Validation__c</fullName>
+    <description>Validate Unit Price vs List Price and Royalty rates
+
+IF(1 &lt; Quantity_by_140k__c,IF(UnitPrice &lt; ListPrice,IF(UnitPrice &lt; (ListPrice * 0.8),10,1),0),0)</description>
+    <externalId>false</externalId>
+    <formula>IF(1 &lt;= Quantity,IF(UnitPrice &lt; ListPrice,IF(UnitPrice &lt; (ListPrice * 0.99),10,1),0),0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Validate Unit Price vs List Price and Royalty rates</inlineHelpText>
+    <label>Sale Price Validation</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

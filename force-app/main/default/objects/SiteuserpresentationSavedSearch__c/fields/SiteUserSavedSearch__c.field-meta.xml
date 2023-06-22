@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SiteUserSavedSearch__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>SiteUserSavedSearch</label>
+    <referenceTo>SiteUserSavedSearch__c</referenceTo>
+    <relationshipLabel>Siteuserpresentationsavedsearches</relationshipLabel>
+    <relationshipName>Siteuserpresentationsavedsearches</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

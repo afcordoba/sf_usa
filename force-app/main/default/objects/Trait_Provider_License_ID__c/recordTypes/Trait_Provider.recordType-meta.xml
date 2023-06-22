@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trait_Provider</fullName>
+    <active>true</active>
+    <label>Trait Provider</label>
+    <picklistValues>
+        <picklist>Trait_Provider__c</picklist>
+        <values>
+            <fullName>Bayer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corteva</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

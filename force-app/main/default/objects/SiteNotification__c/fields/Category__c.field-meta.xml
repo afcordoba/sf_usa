@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bean Blog Post</fullName>
+                <default>false</default>
+                <label>Bean Blog Post</label>
+            </value>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Harvest Visit Cancel</fullName>
+                <default>false</default>
+                <label>GDM Explore Harvest Visit Cancel</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Invitation Answer</fullName>
+                <default>false</default>
+                <label>GDM Explore Invitation Answer</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Invitation Cancelled</fullName>
+                <default>false</default>
+                <label>GDM Explore Invitation Cancelled</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Invitation Created</fullName>
+                <default>false</default>
+                <label>GDM Explore Invitation Created</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Invitation Rescheduled</fullName>
+                <default>false</default>
+                <label>GDM Explore Invitation Rescheduled</label>
+            </value>
+            <value>
+                <fullName>GDM Explore New User Approval Request</fullName>
+                <default>false</default>
+                <label>GDM Explore New User Approval Request</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Note Sharing</fullName>
+                <default>false</default>
+                <label>GDM Explore Note Sharing</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Visit</fullName>
+                <default>false</default>
+                <label>GDM Explore Visit</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Visit Canceled Harvest</fullName>
+                <default>false</default>
+                <label>GDM Explore Visit Canceled Harvest</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Visit Irrigation Off</fullName>
+                <default>false</default>
+                <label>GDM Explore Visit Irrigation Off</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Visit Irrigation On</fullName>
+                <default>false</default>
+                <label>GDM Explore Visit Irrigation On</label>
+            </value>
+            <value>
+                <fullName>GDM Explore Visit Reminder</fullName>
+                <default>false</default>
+                <label>GDM Explore Visit Reminder</label>
+            </value>
+            <value>
+                <fullName>Plot Location Harvest</fullName>
+                <default>false</default>
+                <label>Plot Location Harvest</label>
+            </value>
+            <value>
+                <fullName>Plot Location Irrigation</fullName>
+                <default>false</default>
+                <label>Plot Location Irrigation</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <label>Product Information</label>
+            </value>
+            <value>
+                <fullName>Product Recommendation</fullName>
+                <default>false</default>
+                <label>Product Recommendation</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

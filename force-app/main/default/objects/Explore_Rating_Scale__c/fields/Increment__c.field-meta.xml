@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Increment__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is only to be used when the Scale Type is a Slide Bar - Number</inlineHelpText>
+    <label>Increment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>.5</fullName>
+                <default>false</default>
+                <label>.5</label>
+            </value>
+            <value>
+                <fullName>.1</fullName>
+                <default>false</default>
+                <label>.1</label>
+            </value>
+            <value>
+                <fullName>.01</fullName>
+                <default>false</default>
+                <label>.01</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

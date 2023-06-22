@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Validation_Msg__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Report_Validation_Prod__c==0,&quot;Ok&quot;,&quot;Warning&quot;) + IF(Acres_1_Validation__c!=0,&quot; | Acres vs Parent Seed&quot;,&quot;&quot;) + IF(Bushels_1_Validation__c!=0,&quot; | Bushels vs Acres&quot;,&quot;&quot;) + IF(Supply_1_Validation__c!=0,&quot; | Supply vs Bushels&quot;,&quot;&quot;)
++ IF(Acres_All_Validation__c!=0,&quot; | Acres vs Previous Acres&quot;,&quot;&quot;)+ IF(Bushels_All_Validation__c!=0,&quot; | Bushels vs Previous Bushels&quot;,&quot;&quot;) + IF(Supply_All_Validation__c!=0,&quot; | Supply vs Previous Supply&quot;,&quot;&quot;)
++ IF(Forecast_Validation__c!=0,&quot; | Forecast vs Forecast&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Report Validation Msg</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

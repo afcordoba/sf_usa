@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#1E405E</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Market Analysis</label>
+    <navType>Standard</navType>
+    <tabs>Macroregion__c</tabs>
+    <tabs>Ag_District__c</tabs>
+    <tabs>County__c</tabs>
+    <tabs>Crop_Report_Data__c</tabs>
+    <tabs>Portfolio__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Crop_Acreage_Projection__c</tabs>
+    <tabs>Schedule_A_Brand_Variety__c</tabs>
+    <tabs>Explore_Rating__c</tabs>
+    <tabs>Explore_Rating_Scale__c</tabs>
+    <tabs>Explore_Customer_Variety_Name__c</tabs>
+    <tabs>Access_Customer_Variety_Highlights__c</tabs>
+    <tabs>Access_Hide_Product__c</tabs>
+    <tabs>Seed_Tracking__c</tabs>
+    <tabs>Sales_Localization__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Market_Analysis_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scale_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This will determine the type of scale that will be shown within the GDM Explore App for any Explore Rating with this Explore Rating Scale assigned</inlineHelpText>
+    <label>Scale Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Slide Bar - Text</fullName>
+                <default>false</default>
+                <label>Slide Bar - Text</label>
+            </value>
+            <value>
+                <fullName>Slide Bar - Number</fullName>
+                <default>false</default>
+                <label>Slide Bar - Number</label>
+            </value>
+            <value>
+                <fullName>Slide Bar - 2 Bar</fullName>
+                <default>false</default>
+                <label>Slide Bar - 2 Bar</label>
+            </value>
+            <value>
+                <fullName>Manual Entry - Text</fullName>
+                <default>false</default>
+                <label>Manual Entry - Text</label>
+            </value>
+            <value>
+                <fullName>Manual Entry - Number</fullName>
+                <default>false</default>
+                <label>Manual Entry - Number</label>
+            </value>
+            <value>
+                <fullName>Radio Dial</fullName>
+                <default>false</default>
+                <label>Radio Dial</label>
+            </value>
+            <value>
+                <fullName>Julian Wheel</fullName>
+                <default>false</default>
+                <label>Julian Wheel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

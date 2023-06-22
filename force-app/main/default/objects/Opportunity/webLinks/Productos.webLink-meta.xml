@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Productos</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Products</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>var id = &quot;{!Opportunity.Id}&quot;; 
+var nro = &quot;{!Opportunity.Name}&quot;; 
+
+var vf_url = &quot;/apex/opportunityProductEntry&quot;; 
+
+var mywin = window.location.href=vf_url +&apos;?scontrolCaching=1&amp;id={!Opportunity.Id}&apos;;</url>
+</WebLink>

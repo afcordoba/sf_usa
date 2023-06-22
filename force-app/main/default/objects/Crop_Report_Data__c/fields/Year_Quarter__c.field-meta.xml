@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_Quarter__c</fullName>
+    <description>Time period of the data shown</description>
+    <externalId>false</externalId>
+    <label>Period</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>YEAR</fullName>
+                <default>false</default>
+                <label>YEAR</label>
+            </value>
+            <value>
+                <fullName>YEAR - AUG ACREAGE</fullName>
+                <default>false</default>
+                <label>YEAR - AUG ACREAGE</label>
+            </value>
+            <value>
+                <fullName>YEAR - JUN ACREAGE</fullName>
+                <default>false</default>
+                <label>YEAR - JUN ACREAGE</label>
+            </value>
+            <value>
+                <fullName>YEAR - MAR ACREAGE</fullName>
+                <default>false</default>
+                <label>YEAR - MAR ACREAGE</label>
+            </value>
+            <value>
+                <fullName>YEAR - OCT ACREAGE</fullName>
+                <default>false</default>
+                <label>YEAR - OCT ACREAGE</label>
+            </value>
+            <value>
+                <fullName>YEAR - OCT FORECAST</fullName>
+                <default>false</default>
+                <label>YEAR - OCT FORECAST</label>
+            </value>
+            <value>
+                <fullName>GDM - ESTIMATION</fullName>
+                <default>false</default>
+                <label>GDM - ESTIMATION</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(CONTAINS(Email__c, &apos;gdmseeds&apos;), CONTAINS(Email__c, &apos;recursiva&apos;), CONTAINS(Email__c, &apos;donmario&apos;)) ,&apos;GDM&apos;,&apos;CUSTOMER&apos;)</formula>
+    <label>Customer</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

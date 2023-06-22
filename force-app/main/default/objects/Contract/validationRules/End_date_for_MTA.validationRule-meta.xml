@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_date_for_MTA</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNULL(EndDate), TEXT(Contract_Type__c)=&apos;MTA&apos;)</errorConditionFormula>
+    <errorDisplayField>EndDate</errorDisplayField>
+    <errorMessage>For MTA contracts the End Date can not be null</errorMessage>
+</ValidationRule>

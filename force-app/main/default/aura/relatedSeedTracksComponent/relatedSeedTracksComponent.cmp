@@ -1,0 +1,50 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes,force:hasRecordId" controller="relatedSeedTracksController" > 
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="tracksList" type="relatedSeedTracksController.TrackWrapper[]"></aura:attribute>
+
+    <lightning:card>
+        <table>
+            <tr>
+                <th>
+                    Seed Track Name
+                </th>
+                <th>
+                    Sale Order
+                </th>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Brand
+                </th>
+                <th>
+                    Season
+                </th>
+                <th>
+                    Warehouse
+                </th>
+                <th>
+                    Status
+                </th>
+                <th>
+                    ETA Customer
+                </th>
+            </tr>
+
+            <aura:iteration items="{!v.tracksList}" var="item">
+                <tr>
+                    <td><a href="{!'/lightning/r/Seed_Tracking__c/'+item.id+'/view'}" target="_blank">{!item.name}</a></td>
+                    <td><a href="{!'/lightning/r/Opportunity/'+item.saleOrderId+'/view'}" target="_blank">{!item.saleOrderName}</a></td>
+                    <td>{!item.productName}</td>
+                    <td>{!item.brand}</td>
+                    <td>{!item.season}</td>
+                    <td>{!item.warehouse}</td>
+                    <td>{!item.status}</td>
+                    <td>{!item.customerETA}</td>
+                </tr>
+            </aura:iteration>
+        </table>
+    </lightning:card>
+</aura:component>

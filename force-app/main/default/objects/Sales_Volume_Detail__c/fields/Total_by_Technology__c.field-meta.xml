@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_by_Technology__c</fullName>
+    <externalId>false</externalId>
+    <formula>T_Enlist__c + T_GT__c + T_LL__c + T_LLG27__c + T_RR2Y__c + T_Xtend__c + T_X_Flex__c + T_Conventional__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total by Technology</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

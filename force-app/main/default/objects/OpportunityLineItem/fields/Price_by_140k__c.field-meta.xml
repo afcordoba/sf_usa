@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_by_140k__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(PricebookEntry.Product2.UNIDADE__c)=&apos;BAGS BY LBS&apos; 
+,UnitPrice*50/VALUE(PricebookEntry.Product2.CANTIDAD_SUB_UNIDAD__c) 
+,UnitPrice*140/VALUE(PricebookEntry.Product2.CANTIDAD_SUB_UNIDAD__c))
+- IF(Quantity_by_140k__c&lt;&gt;0,CM_Amount__c/Quantity_by_140k__c,0)
++ IF(Quantity_by_140k__c&lt;&gt;0,DB_Amount__c/Quantity_by_140k__c,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Result of Sales Price equivalence in 140k, after credit memos if any.</inlineHelpText>
+    <label>Price by 140k</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

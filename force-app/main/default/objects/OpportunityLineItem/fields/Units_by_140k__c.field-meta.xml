@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Units_by_140k__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Opportunity.Type,
+			&quot;Production Update 2&quot;,Units_Estimate_140K__c,&quot;Production Update 3&quot;,Units_Estimate_140K__c,
+			&quot;Final Production Report&quot;,Units_Estimate_140K__c,&quot;Sales Forecast Update 1&quot;,Forecast_Quantity__c,
+			&quot;Sales Forecast Update 2&quot;,Forecast_Quantity__c,&quot;Production Update 1&quot;, Units_Estimate_140K__c,
+			&quot;Final Sales Report&quot;,Unit_Totals__c,&quot;Z17 - PARENT SEED&quot;,Quantity_by_140k__c,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Units by 140k</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

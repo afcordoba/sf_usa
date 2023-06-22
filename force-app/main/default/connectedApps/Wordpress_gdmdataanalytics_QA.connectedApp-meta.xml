@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jgarmendia@donmario.com</contactEmail>
+    <contactPhone>02352439100</contactPhone>
+    <label>Wordpress_gdmdataanalytics_QA</label>
+    <oauthConfig>
+        <callbackUrl>https://dataanaliticqa.wpengine.com/wp-admin/options-general.php?page=object-sync-salesforce-admin&amp;tab=authorize</callbackUrl>
+        <consumerKey>3MVG9Oe7T3Ol0ea7GxmhmsrnKW0KEVTrMZ3cloKlcxkrjvfWzcMWqIrG0jayIcLeOh_hwlw6SWiUgKd7SVCt6</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

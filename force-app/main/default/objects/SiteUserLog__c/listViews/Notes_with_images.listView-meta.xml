@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes_with_images</fullName>
+    <columns>NAME</columns>
+    <columns>SiteUser__c</columns>
+    <columns>Place__c</columns>
+    <columns>ModuleId__c</columns>
+    <columns>Type__c</columns>
+    <columns>Image_name__c</columns>
+    <columns>source__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Variety_obj__c</columns>
+    <columns>Logged_Date__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>source__c</field>
+        <operation>equals</operation>
+        <value>APP</value>
+    </filters>
+    <label>Notes with images</label>
+</ListView>

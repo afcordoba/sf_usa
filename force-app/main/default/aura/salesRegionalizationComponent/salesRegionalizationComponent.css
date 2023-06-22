@@ -1,0 +1,21 @@
+.THIS {
+}
+
+.THIS .table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.THIS table {
+    margin: 0px 15px;
+    width: 95%;
+}
+
+.THIS th {
+    padding: 5px;
+}
+
+.THIS td {
+    padding: 5px;
+    align-items: center!important;
+}

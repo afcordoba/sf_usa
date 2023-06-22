@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Discount_Achieved__c</fullName>
+    <externalId>false</externalId>
+    <label>Activity Discount Achieved</label>
+    <summarizedField>Incentive_Snapshot_Activity_Detail__c.Discount__c</summarizedField>
+    <summaryForeignKey>Incentive_Snapshot_Activity_Detail__c.Incentive_Snapshot__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

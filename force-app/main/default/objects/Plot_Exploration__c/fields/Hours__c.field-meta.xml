@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hours__c</fullName>
+    <description>HOUR(TIMEVALUE(Check_Out__c)) - HOUR(TIMEVALUE(Check_In__c))</description>
+    <externalId>false</externalId>
+    <formula>IF((((HOUR(TIMEVALUE(Check_Out__c)) - HOUR(TIMEVALUE(Check_In__c))) * 60 +
+(MINUTE(TIMEVALUE(Check_Out__c)) - MINUTE(TIMEVALUE(Check_In__c))))
+/60)&lt;0,(((HOUR(TIMEVALUE(Check_Out__c)) - HOUR(TIMEVALUE(Check_In__c))) * 60 +
+(MINUTE(TIMEVALUE(Check_Out__c)) - MINUTE(TIMEVALUE(Check_In__c))))
+/60)+24,((HOUR(TIMEVALUE(Check_Out__c)) - HOUR(TIMEVALUE(Check_In__c))) * 60 +
+(MINUTE(TIMEVALUE(Check_Out__c)) - MINUTE(TIMEVALUE(Check_In__c))))
+/60)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>((HOUR(TIMEVALUE(Check_Out__c)) - HOUR(TIMEVALUE(Check_In__c))) * 60 + (MINUTE(TIMEVALUE(Check_Out__c)) - MINUTE(TIMEVALUE(Check_In__c))))/60</inlineHelpText>
+    <label>Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

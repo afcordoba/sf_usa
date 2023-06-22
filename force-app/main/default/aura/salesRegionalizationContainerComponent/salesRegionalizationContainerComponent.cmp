@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+    <aura:attribute name="recordId" type="String"/>
+
+    <c:salesRegionalizationComponent recordId="{!v.recordId}"></c:salesRegionalizationComponent>
+</aura:component>

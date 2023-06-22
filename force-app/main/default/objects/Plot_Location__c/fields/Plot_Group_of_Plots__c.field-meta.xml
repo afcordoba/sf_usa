@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plot_Group_of_Plots__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This number represents the number of Plots within a Plot Group. Should only be used for &quot;Fake Locations&quot; within a Plot Group</inlineHelpText>
+    <label>Plot Group - # of Plots</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

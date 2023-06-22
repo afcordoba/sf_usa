@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marca_comercial__c</fullName>
+    <externalId>false</externalId>
+    <label>Marca NO USAR</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GDM</fullName>
+                <default>false</default>
+                <label>GDM</label>
+            </value>
+            <value>
+                <fullName>VIRTUE</fullName>
+                <default>false</default>
+                <label>VIRTUE</label>
+            </value>
+            <value>
+                <fullName>DONMARIO</fullName>
+                <default>false</default>
+                <label>DONMARIO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

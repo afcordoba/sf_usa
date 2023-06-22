@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_in_Group__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>IF you have assigned an Explore Rating to an Explore Rating Group, this field will control the order in which that rating will appear in its assigned group. Not Needed if there is no Group assigned. Cannot have the same order number repeated twice for the same group.</inlineHelpText>
+    <label>Order in Group</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

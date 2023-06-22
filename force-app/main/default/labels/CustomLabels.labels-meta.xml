@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Action</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Active</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Active</shortDescription>
+        <value>active</value>
+    </labels>
+    <labels>
+        <fullName>Active_List</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Active List</shortDescription>
+        <value>active list</value>
+    </labels>
+    <labels>
+        <fullName>Authorizations</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authorizations</shortDescription>
+        <value>Authorizations</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>Site.Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Choose</fullName>
+        <categories>Site.Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Choose</shortDescription>
+        <value>Choose</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Profile</fullName>
+        <categories>Site.Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Profile</shortDescription>
+        <value>Edit Profile</value>
+    </labels>
+    <labels>
+        <fullName>Forecast_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forecast Information</shortDescription>
+        <value>forecast information</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Password_is_required</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Password is required</shortDescription>
+        <value>Password is required!</value>
+    </labels>
+    <labels>
+        <fullName>Profile</fullName>
+        <categories>Site.Menu</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile</shortDescription>
+        <value>User Profile</value>
+    </labels>
+    <labels>
+        <fullName>Reductions</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reductions</shortDescription>
+        <value>Reductions</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Information</shortDescription>
+        <value>sales information</value>
+    </labels>
+    <labels>
+        <fullName>Task_Completed_Ok</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Completed Ok</shortDescription>
+        <value>The task was completed successfully</value>
+    </labels>
+    <labels>
+        <fullName>User_Report</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User Report</shortDescription>
+        <value>User Report</value>
+    </labels>
+    <labels>
+        <fullName>Username_incorrent</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Username or Password incorrect</shortDescription>
+        <value>Username or Password was incorrect, please try again!</value>
+    </labels>
+    <labels>
+        <fullName>Username_is_required</fullName>
+        <categories>Site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Username is required</shortDescription>
+        <value>Username is required!</value>
+    </labels>
+    <labels>
+        <fullName>View_Products</fullName>
+        <categories>Site.Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View Products</shortDescription>
+        <value>View Products</value>
+    </labels>
+    <labels>
+        <fullName>production_information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Production info</shortDescription>
+        <value>production information</value>
+    </labels>
+</CustomLabels>

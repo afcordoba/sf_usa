@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GPOS_Variety_Consolidation__c</fullName>
+    <externalId>false</externalId>
+    <label>GPOS Variety Consolidation</label>
+    <referenceTo>GPOS_Variety_Consolidation__c</referenceTo>
+    <relationshipLabel>GPOS Variety Temps</relationshipLabel>
+    <relationshipName>GPOS_Variety_Temps</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

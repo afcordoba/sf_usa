@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Type,&quot;Production Update 1&quot;,&quot;April 1&quot;, &quot;Production Update 2&quot;,IF(TEXT(Marca__c)=&quot;DONMARIO&quot;,&quot;June 1&quot;,&quot;August 1&quot;), &quot;Production Update 3&quot;,IF(TEXT(Marca__c)=&quot;DONMARIO&quot;,&quot;July 1&quot;,&quot;December 1&quot;),
+					&quot;Production Update 4&quot;,&quot;August 1&quot;,&quot;Production Update 5&quot;,&quot;December 1&quot;, &quot;Final Production Report&quot;,&quot;April 2&quot;,
+					&quot;Sales Forecast Update 1&quot;,&quot;December 1&quot;, &quot;Sales Forecast Update 2&quot;,&quot;April 2&quot;,&quot;Sales Forecast Update 3&quot;,&quot;June 2&quot;,&quot;Sales Forecast Update 4&quot;,&quot;July 2&quot;,&quot;Final Sales Report&quot;,&quot;August 2&quot;,&quot;Not Report&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Report Month</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

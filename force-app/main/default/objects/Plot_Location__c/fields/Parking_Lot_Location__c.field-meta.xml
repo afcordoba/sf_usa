@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parking_Lot_Location__c</fullName>
+    <displayLocationInDecimal>false</displayLocationInDecimal>
+    <externalId>false</externalId>
+    <inlineHelpText>This GPS coordinate will be used in GDM Explore for the Navigation feature. This should be the GPS that we set for the user to park their car - Not the First Plot GPS.</inlineHelpText>
+    <label>Parking Lot Location</label>
+    <required>false</required>
+    <scale>8</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>

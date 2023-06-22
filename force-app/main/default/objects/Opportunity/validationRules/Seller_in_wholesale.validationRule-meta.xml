@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seller_in_wholesale</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name=&apos;Sale&apos;,TEXT(Type)=&apos;Z19 - WHOLESALE SEED&apos;,ISBLANK(Seller__c))</errorConditionFormula>
+    <errorDisplayField>Seller__c</errorDisplayField>
+    <errorMessage>For a wholesale opportunity the Seller field must be completed</errorMessage>
+</ValidationRule>

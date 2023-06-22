@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Portfolios</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Brand_Variety__c</columns>
+    <columns>Season__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Season__c</field>
+        <operation>equals</operation>
+        <value>22/2022</value>
+    </filters>
+    <label>All Portfolios</label>
+</ListView>

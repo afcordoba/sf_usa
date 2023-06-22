@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Year__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Type)=&quot;Z17 - PARENT SEED&quot;, LEFT(TEXT(Safra__c),2) + &quot;/20&quot; + TEXT(VALUE(LEFT(TEXT(Safra__c),2))+1),TEXT(VALUE(LEFT(TEXT(Safra__c),2))-1) + &quot;/20&quot; + LEFT(TEXT(Safra__c),2))</formula>
+    <label>Production Season</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

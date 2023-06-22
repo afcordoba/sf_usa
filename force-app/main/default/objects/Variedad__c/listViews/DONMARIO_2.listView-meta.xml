@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DONMARIO_2</fullName>
+    <columns>NAME</columns>
+    <columns>Nombre_de_Registro__c</columns>
+    <columns>Brand__c</columns>
+    <columns>Tecnologia__c</columns>
+    <columns>Commercial_Code__c</columns>
+    <columns>DM_Name__c</columns>
+    <columns>Active__c</columns>
+    <columns>Genetic_Provider__c</columns>
+    <columns>Regions__c</columns>
+    <columns>Map_image__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Brand__c</field>
+        <operation>equals</operation>
+        <value>DONMARIO</value>
+    </filters>
+    <label>DONMARIO</label>
+</ListView>

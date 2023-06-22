@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Show_source_Access_Toggle__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Toggles whether this SiteUser wants to see the source in Access Analytics pages. Only for users whose account has visibility for the source field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Toggles whether this SiteUser wants to see the source in Access Analytics pages. Only for users whose account has visibility for the source field</inlineHelpText>
+    <label>Show source Access Toggle</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

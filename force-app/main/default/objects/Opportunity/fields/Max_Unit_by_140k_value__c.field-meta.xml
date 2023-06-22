@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Unit_by_140k_value__c</fullName>
+    <description>Max unit by 140k value of all products related to this opportunity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Max unit by 140k value of all products related to this opportunity.</inlineHelpText>
+    <label>Max Unit by 140k value</label>
+    <summarizedField>OpportunityLineItem.Quantity_by_140k_value__c</summarizedField>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soil_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Soil Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clay</fullName>
+                <default>false</default>
+                <label>Clay</label>
+            </value>
+            <value>
+                <fullName>Clay Loam</fullName>
+                <default>false</default>
+                <label>Clay Loam</label>
+            </value>
+            <value>
+                <fullName>Loam</fullName>
+                <default>false</default>
+                <label>Loam</label>
+            </value>
+            <value>
+                <fullName>Loamy Sand</fullName>
+                <default>false</default>
+                <label>Loamy Sand</label>
+            </value>
+            <value>
+                <fullName>Mineral</fullName>
+                <default>false</default>
+                <label>Mineral</label>
+            </value>
+            <value>
+                <fullName>Mineral Organic</fullName>
+                <default>false</default>
+                <label>Mineral Organic</label>
+            </value>
+            <value>
+                <fullName>Sand</fullName>
+                <default>false</default>
+                <label>Sand</label>
+            </value>
+            <value>
+                <fullName>Sandy Clay</fullName>
+                <default>false</default>
+                <label>Sandy Clay</label>
+            </value>
+            <value>
+                <fullName>Sandy Loam</fullName>
+                <default>false</default>
+                <label>Sandy Loam</label>
+            </value>
+            <value>
+                <fullName>Silt</fullName>
+                <default>false</default>
+                <label>Silt</label>
+            </value>
+            <value>
+                <fullName>Silt Loam</fullName>
+                <default>false</default>
+                <label>Silt Loam</label>
+            </value>
+            <value>
+                <fullName>Silty Clay</fullName>
+                <default>false</default>
+                <label>Silty Clay</label>
+            </value>
+            <value>
+                <fullName>Silty Clay Loam</fullName>
+                <default>false</default>
+                <label>Silty Clay Loam</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

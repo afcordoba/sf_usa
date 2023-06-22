@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Range__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This will identify the plot cell&apos;s Range/Row - Will be seen by Product Placement Accounts in the Header in GDM Explore</inlineHelpText>
+    <label>Range</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

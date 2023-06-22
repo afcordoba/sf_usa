@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visibility__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This will control who is able to see the rating within the account. There is a checkbox within the Account object (&quot;Product Placement&quot;) that can assign an account to be either a Customer (unchecked) or Product Placement (checked)</inlineHelpText>
+    <label>Visibility</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Product Placement</fullName>
+                <default>false</default>
+                <label>Product Placement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

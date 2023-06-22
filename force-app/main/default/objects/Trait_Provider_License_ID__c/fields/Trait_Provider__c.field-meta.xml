@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trait_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>Trait Provider</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bayer</fullName>
+                <default>false</default>
+                <label>Bayer</label>
+            </value>
+            <value>
+                <fullName>Corteva</fullName>
+                <default>false</default>
+                <label>Corteva</label>
+            </value>
+            <value>
+                <fullName>Syngenta</fullName>
+                <default>false</default>
+                <label>Syngenta</label>
+            </value>
+            <value>
+                <fullName>BASF</fullName>
+                <default>false</default>
+                <label>BASF</label>
+            </value>
+            <value>
+                <fullName>Attribute</fullName>
+                <default>false</default>
+                <label>Attribute</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

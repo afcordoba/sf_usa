@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>afiffe.retamozo@cloudgaia.com</contactEmail>
+    <label>Azure Usa GDM</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDeDCCAmACCQDGvKCHIZs4rTANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQGEwJFVTELMAkGA1UECBMCTlkxCzAJBgNVBAcTAk5ZMQwwCgYDVQQKEwNHRE0xCzAJBgNVBAsTAlRJMQwwCgYDVQQDEwNHRE0xLDAqBgkqhkiG9w0BCQEWHWFmaWZmZS5yZXRhbW96b0BjbG91ZGdhaWEuY29tMB4XDTIzMDMyOTEzMzcxNFoXDTI0MDMyODEzMzcxNFowfjELMAkGA1UEBhMCRVUxCzAJBgNVBAgTAk5ZMQswCQYDVQQHEwJOWTEMMAoGA1UEChMDR0RNMQswCQYDVQQLEwJUSTEMMAoGA1UEAxMDR0RNMSwwKgYJKoZIhvcNAQkBFh1hZmlmZmUucmV0YW1vem9AY2xvdWRnYWlhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL8/UmMFZX9pjo10xW76xTlrRa1PRKURFNkBy7r8E+N9kdAu6Ft8ArGw76vq+YYBtw66U6n638zVNgPiXxkQTpEqQEIdwXsUpetRj3jYaAkNZVvfvgWSg/vTz4KpxRN18tj02fwG1cYQARDga7kfV/hpT26waEpJO8OYWiamLr1gJKXLpUBz7yuBAhgpInRiuvuWMoSxPav1edAUKENt9dgI8kjqpSbHgVctvjqObjOHl9hyGFVvippELLi9Q2cDHrzqAhc6d7z6QyamRONJsu0u4hjeAqTKx9WHMbUWC4p2R38oxd3aFt09Tpfr0Gw7JYi0Bn93FUb06fFvSy4WJCUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAqWxFMMZtU6DDn4Ums1SniJbmHV10jxAuEHHaZG57lHOmoxrDY40mG0L5imbq9w0WwEg04jL7JMlWg+Egaf9e7ph1K09Ky3NNsUFqQcvzfGX4WzeVshmujtVgK3UQsaE0HBDCriWpwJ69L5cMUUUSxIr8cYn/6zslRTHQhGAkPZRzdZzAun/ZXR0Puxxb/PhEPYrHq1zQlfa74exG2md3Yjd4/ounkOj837tv6KqFwTIK57q7lT21coYTbS2dFidNKmBfQoaCllYlVKhRAXITcA4/9DYbIyuHAdbnuV5uSbF2VUBlmvOG3smyGFp/0QRvpukNjv0Hyacn/1uBXJwVgg==</certificate>
+        <consumerKey>3MVG9NYvTkhtdEI4wQdueD_aXdCSApk4ILWYOUtazlS5PFHMp3pZTn._GaUF1lzxihmXdqNTzsd890UivLwgw</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

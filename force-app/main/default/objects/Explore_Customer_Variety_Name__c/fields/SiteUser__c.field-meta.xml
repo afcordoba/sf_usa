@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SiteUser__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Name of the Siteuser who created/edited this Customer Variety Name in Access.</description>
+    <externalId>false</externalId>
+    <label>SiteUser</label>
+    <referenceTo>SiteUser__c</referenceTo>
+    <relationshipLabel>Explore Customer Variety Names</relationshipLabel>
+    <relationshipName>Explore_Customer_Variety_Names</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

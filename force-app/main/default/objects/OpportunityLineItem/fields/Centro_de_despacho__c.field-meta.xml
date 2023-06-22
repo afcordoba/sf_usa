@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Centro_de_despacho__c</fullName>
+    <externalId>false</externalId>
+    <label>Plant</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Company__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>E001 - B&amp;B - CHAMPAIGN</fullName>
+                <default>false</default>
+                <label>E001 - B&amp;B - CHAMPAIGN</label>
+            </value>
+            <value>
+                <fullName>E002 - B&amp;B - GIBSON CITY</fullName>
+                <default>false</default>
+                <label>E002 - B&amp;B - GIBSON CITY</label>
+            </value>
+            <value>
+                <fullName>E003 - B&amp;B - JONESBORO</fullName>
+                <default>false</default>
+                <label>E003 - B&amp;B - JONESBORO</label>
+            </value>
+            <value>
+                <fullName>E004 – B&amp;B - PRO AG EARLY</fullName>
+                <default>false</default>
+                <label>E004 – B&amp;B - PRO AG EARLY</label>
+            </value>
+            <value>
+                <fullName>E004 – B&amp;B - PRO AG LATE</fullName>
+                <default>false</default>
+                <label>E004 – B&amp;B - PRO AG LATE</label>
+            </value>
+            <value>
+                <fullName>U001 - GDM - CHAMPAIGN</fullName>
+                <default>false</default>
+                <label>U001 - GDM - CHAMPAIGN</label>
+            </value>
+            <value>
+                <fullName>U002 - GDM - GIBSON CITY</fullName>
+                <default>false</default>
+                <label>U002 - GDM - GIBSON CITY</label>
+            </value>
+            <value>
+                <fullName>U003 - GDM - JONESBORO</fullName>
+                <default>false</default>
+                <label>U003 - GDM - JONESBORO</label>
+            </value>
+            <value>
+                <fullName>U004 - GDM - PRO AG EARLY</fullName>
+                <default>false</default>
+                <label>U004 - GDM - PRO AG EARLY</label>
+            </value>
+            <value>
+                <fullName>U004 - GDM - PRO AG LATE</fullName>
+                <default>false</default>
+                <label>U004 - GDM - PRO AG LATE</label>
+            </value>
+            <value>
+                <fullName>U005 - GDM - HUTCHINSON</fullName>
+                <default>false</default>
+                <label>U005 - GDM - HUTCHINSON</label>
+            </value>
+            <value>
+                <fullName>U006 - GDM - DES MOINES</fullName>
+                <default>false</default>
+                <label>U006 - GDM - DES MOINES</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <valueName>U001 - GDM - CHAMPAIGN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <valueName>U002 - GDM - GIBSON CITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <valueName>U003 - GDM - JONESBORO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <valueName>U004 - GDM - PRO AG EARLY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <valueName>U004 - GDM - PRO AG LATE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <valueName>U005 - GDM - HUTCHINSON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDM</controllingFieldValue>
+            <valueName>U006 - GDM - DES MOINES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>E001 - B&amp;B - CHAMPAIGN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>E002 - B&amp;B - GIBSON CITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>E003 - B&amp;B - JONESBORO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>E004 – B&amp;B - PRO AG EARLY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B&amp;B</controllingFieldValue>
+            <valueName>E004 – B&amp;B - PRO AG LATE</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

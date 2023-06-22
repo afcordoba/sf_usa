@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>License_change_notifications__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>License change notification to corresponding user responables</description>
+    <externalId>false</externalId>
+    <label>License change notifications</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
